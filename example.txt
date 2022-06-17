@@ -1,0 +1,11 @@
+Às vezes, um arquivo de texto precisa
+ser processado linha por linha. Isso é feito, por exemplo,
+ao pesquisar em um arquivo de log do servidor Web os registros
+contendo um endereço IP suspeito. Um arquivo de log é um arquivo
+em que cada linha é um registro de alguma transação (por exemplo,
+o processamento de uma solicitação de página Web por um servidor Web).
+Nesse terceiro padrão, a função readlines() é usada para obter o conteúdo
+do arquivo como uma lista de linhas. Ilustramos o padrão em uma única
+função que conta o número de linhas em um arquivo retornando o
+comprimento dessa lista. Ele também exibirá a lista de linhas de modo
+que possamos ver como a lista se parece.
